@@ -1,7 +1,12 @@
 **FreeCodeCamp**- Information Security and Quality Assurance
 ------
 
-Project Anon Message Board
+Project Anonymous Message Board
+
+#### Try it out!
+
+If you want to try , open [this link on Glitch](https://afamo-anonymous-message-board.glitch.me/).
+
 
 1) SET NODE_ENV to `test` without quotes when ready to write tests and DB to your databases connection string (in .env)
 2) Recomended to create controllers/handlers and handle routing in routes/api.js

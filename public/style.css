@@ -34,3 +34,204 @@ body {
 #submitNewThread {
   margin: 50px;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding: 10px;
+}
+h2{
+  font-size: 3em;
+  text-align: center;
+  font-weight: bolder;
+  font-family: cursive;
+  text-shadow: 2px 2px white;
+
+
+}
+input, textarea{
+  margin-top: 1em;
+  padding: 1em 1em 1em 1em;
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+
+button{
+  margin-top: 2em;
+  padding: 1em 0.5em 1em 0.5em;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.issue {
+  margin: 20px;
+  padding: 5px;
+  width: 60%;
+  border: 2px solid black;
+}
+
+.closed {
+  background-color: lightgrey;
+}
+.opened{
+  color: green;
+}
+
+.id {
+  font-size: 1em;
+}
+.text {
+  font-size: 2em;
+}
+.board {
+  color: #2C3E50;
+}
+::placeholder{
+  text-align: center;
+}
+.examples-usages{
+  text-align:center;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: lightgray;
+  height: 13em;
+  margin-top: 2em;
+  border: 0.1em solid lightgray;
+  border-radius: 10px;
+}
+#examples{
+  margin-left: 0em;
+  width: 90%;
+  margin-top: 1.5em;
+}
+.return{
+  margin-left: 0em;
+  margin-top: 1.5em;
+  width:54%;
+}
+
+#testui{
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+h3,h4{
+  margin-top:0.1em;
+  font-size: 2.3em;
+}
+h6{
+  margin-top:0.1em;
+  font-size: 1.5em;
+}
+
+code{
+  background: white;
+  color: green;
+  font-family: cursive;
+}
+#boards{
+  text-align: center;
+  height: 19em;
+  margin-top: 2em;
+
+}
+.thread{
+  font-size: 1.1em;
+  margin-right: 2em;
+  text-decoration: none;
+}
+
+a:hover{
+  transform: scale(1.5);
+}
+h4,h6{
+  color: olive;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  padding: 0.5em 0em 0.5em 0em;
+  border: 0.1em solid lightgray;
+  border-radius: 5px;
+}
+ul{
+  margin-top: 2em;
+  padding: 1em 0em 1em 0em;
+  line-height: 2em;
+  border: 0.1em solid lightgray;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: block;
+}
+#title{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4em;
+  font-family: sans-serif serif;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+#footer{
+  margin-top: 0%;
+  padding:0.1em;
+  text-align: center;
+}
+@media(max-width:520px){
+
+  .examples-usages{
+    text-align: center;
+    display:block;
+    background: lightgray;
+    height: 27em;
+    margin-top: -8em;
+    border: 0.1em solid lightgray;
+    border-radius: 10px;
+  }
+  #examples{
+    width: 100%;
+  }
+  .return{
+    margin-left: 0em;
+    margin-top: 1.5em;
+    width:100%;
+  }
+  button{
+
+    width:80%;
+  }
+  .issue {
+    margin: 20px;
+    padding: 5px;
+    width: 95%;
+    border: 2px solid black;
+  }
+
+  ul{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  h6,h4{
+    margin-top:0.1em;
+    font-size: 1em;
+  }
+  #title{
+    font-size: 2em;
+  }
+  #boards{
+    height: 29em;
+  }
+}
